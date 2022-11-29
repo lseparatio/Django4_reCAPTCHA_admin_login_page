@@ -40,7 +40,7 @@ os.environ.setdefault('RECAPTCHA_PRIVATE_KEY',
                       'your private key')
 ```
 
-5. Edit project url.py file and change the import of admin:
+5. Edit project urls.py file and change the import of admin:
 
 From:
 
