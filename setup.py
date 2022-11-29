@@ -10,7 +10,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 setup(
     name="django4-recaptcha-admin-login",
 
-    version="1.0.4",
+    version="1.0",
 
     description="Will add an reCAPTCHA field to Django admin login page to provide a more secure page",
 
