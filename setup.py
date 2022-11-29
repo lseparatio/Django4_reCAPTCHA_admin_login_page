@@ -51,8 +51,8 @@ setup(
 
     install_requires=["django-recaptcha==3.0.0"],
 
-    project_urls={  # Optional
-        "Bug Reports": "https://github.com/lseparatio/Django4_reCAPTCHA_admin_login_page/issues",
-        "Source": "https://github.com/lseparatio/Django4_reCAPTCHA_admin_login_page",
+    project_urls={
+        "Bug Reports": "https://github.com/lseparatio/django4_recaptcha_admin_login/issues",
+        "Source": "https://github.com/lseparatio/django4_recaptcha_admin_login",
     },
 )
