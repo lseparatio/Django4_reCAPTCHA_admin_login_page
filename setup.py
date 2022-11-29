@@ -10,7 +10,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 setup(
     name="django4-recaptcha-admin-login",
 
-    version="1.0.1",
+    version="1.0.4",
 
     description="Will add an reCAPTCHA field to Django admin login page to provide a more secure page",
 
@@ -42,6 +42,10 @@ setup(
     package_dir={"": "src"},
 
     packages=find_packages(where="src"),
+
+    package_data= {
+        'django4_recaptcha_admin_login': ['templates/admin/*']
+    },
 
     python_requires=">=3.8, <4",
 
