@@ -58,3 +58,5 @@ This is all.
 This package is depending on django-recaptcha 3.0.0 package.
 For extended informations and suport for django-recaptcha please see:
 https://pypi.org/project/django-recaptcha/
+
+This package was tested on Django==4.1.2 and Python 3.10.8
